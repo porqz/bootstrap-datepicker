@@ -676,7 +676,7 @@
 				container = $(this.o.container),
 				windowWidth = container.width(),
 				windowHeight = container.height(),
-				scrollTop = container.scrollTop(),
+				scrollTop = $(window).scrollTop(),
 				appendOffset = container.offset();
 
 			var parentsZindex = [];
