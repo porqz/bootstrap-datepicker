@@ -637,7 +637,7 @@
 				visualPadding = 10,
 				windowWidth = $(this.o.container).width(),
 				windowHeight = $(this.o.container).height(),
-				scrollTop = $(this.o.container).scrollTop(),
+				scrollTop = $(window).scrollTop(),
 				appendOffset = $(this.o.container).offset();
 
 			var parentsZindex = [];
